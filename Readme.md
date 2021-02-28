@@ -1,9 +1,9 @@
 # Penentuan Rencana Studi
 
 ## Algoritma Topological Sorting (penerapan Decrease and conquer) :pencil2:
-Buat kelas `CourseType` yang berfungsi seperti layaknya graf, memiliki atribut nama, array prerequisites dan derajat masuk. Kumpulkan masukkan dari file sebagai array of CourseType, sebut sebagai `ListCourse`. \
+Buat kelas `CourseType` yang berfungsi seperti layaknya graf, memiliki atribut nama, array prerequisites dan derajat masuk. Kumpulkan masukkan dari file sebagai array of CourseType, sebut sebagai `ListCourse`. 
 
-*Algoritma :* \
+**Algoritma :** 
 1. Pilih seluruh mata kuliah yang memiliki derajat masuk nol(0), sebut sebagai `0degreeCourse`.
 2. kemudian Setiap mata kuliah memiliki derajat masuk nol, telusuri mata kuliah lain yang memiliki 0degreeCourse sebagai prerequisites. Lalu hapus dari prerequisites.
 3. Tampilkan ke layar nama mata kuliah 0degreeCourse beserta semesterya.
@@ -12,8 +12,8 @@ Buat kelas `CourseType` yang berfungsi seperti layaknya graf, memiliki atribut n
 
 ## Kebutuhan dan pemasangan :hammer:
 
-Program ini telah teruji pada sistem operasi `windows` dan `python` versi `3.8.7`
-*Jika terjadi infinite recursion pada program, perhatikan kembali format file .txt, program tidak menerima jika terdapat `tab`*
+Program ini telah teruji pada sistem operasi `windows` dan `python` versi `3.8.7`\
+**Jika terjadi infinite recursion pada program, perhatikan kembali format file .txt, program tidak menerima jika terdapat `tab`**
 *Sesuaikan format seperti `<matakuliah1>, <matakuliah2>, <matakuliah3>.`*
 
 ## Pembuat :pushpin:
